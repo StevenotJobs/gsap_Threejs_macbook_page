@@ -1,10 +1,10 @@
-import React from 'react'
+import NavLinks from './constants/NavBar'
 
 const NavBar = () => {
   return (
    <header>
     <nav>
-        <img src= "/logo.svg" alt="Apple logo" />
+        <img src="/logo (1).svg" alt="Apple logo" />
 
       <ul>
         {NavLinks.map(({ label}) => (
@@ -19,7 +19,7 @@ const NavBar = () => {
             <img src="/search.svg" alt="Search" />
         </button>
         <button>
-            <image src="/cart.svg" alt="Cart" />
+            <img src="/cart (1).svg" alt="Cart" />
         </button>
       </div>
     </nav>
